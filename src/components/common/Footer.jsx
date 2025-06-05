@@ -2,7 +2,6 @@
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
@@ -125,7 +124,6 @@ const Footer = () => {
             </address>
           </div>
         </div>
-
         <div className="pt-8 mt-8 text-center border-t border-secondary-700">
           <p className="text-secondary-400">
             &copy; {currentYear} RDR Software Solutions. All rights reserved.
